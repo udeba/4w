@@ -1,13 +1,14 @@
+//inputs
 const birthMonth = Number(prompt("insert Birth Month"));
 if (birthMonth > 12 || birthMonth < 1) {
   alert("You entered wrong information");
-  // throw error();
 }
 const birthDay = Number(prompt("insert Birth Day"));
 if (birthDay > 31 || birthDay < 1) {
   alert("You entered wrong information");
   console.log("You entered wrong information");
 }
+// Horoscope names
 const capricorn = "Capricorn";
 const aquarius = "Aquarius";
 const pisces = "Pisces";
@@ -20,6 +21,7 @@ const virgo = "Virgo";
 const libra = "Libra";
 const scorpio = "Scorpio";
 const sagittarius = "Sagittarius";
+//Conditions
 
 if (birthMonth == 1 && birthDay >= 1 && birthDay <= 19) {
   console.log("Your Horoscope:", capricorn);
@@ -80,7 +82,4 @@ if (birthMonth == 12 && birthDay >= 1 && birthDay <= 21) {
   console.log("Your Horoscope:", sagittarius);
 } else if (birthMonth == 12 && birthDay >= 22 && birthDay <= 31) {
   console.log("Your Horoscope:", capricorn);
-} else {
-  console.log("Please enter a valid value.");
-  alert("Please enter a valid value.");
 }
