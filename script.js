@@ -21,7 +21,19 @@ const virgo = "Virgo";
 const libra = "Libra";
 const scorpio = "Scorpio";
 const sagittarius = "Sagittarius";
-//Conditions
+// Months
+// January ="January"
+// February="February"
+// March ="March"
+// April ="April"
+// May ="May"
+// June ="June"
+// July ="July"
+// August ="August"
+// September ="September"
+// October ="October"
+// November ="November"
+// December ="December"
 
 if (birthMonth == 1 && birthDay >= 1 && birthDay <= 19) {
   console.log("Your Horoscope:", capricorn);
